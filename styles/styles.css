@@ -1,5 +1,5 @@
 
-p, li, h1 {color: red;
+p, li, h1, img {color: red;
   width: 500px;
   border: 1px solid black;
 }
