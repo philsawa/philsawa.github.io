@@ -33,5 +33,5 @@ body {
 
 img {
   width: 400px;
-  align-content: center;
+  margin: 0 auto;
 }
