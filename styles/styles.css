@@ -17,6 +17,10 @@ a {
   color: #B3B3FF;
 }
 
+a:visited {
+  color: #b3b399;
+}
+
 strong {
   font-size: 30px;
   padding: 15px;
