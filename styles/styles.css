@@ -23,7 +23,9 @@ a:visited {
 
 strong {
   font-size: 30px;
-  padding: 15px;
+  padding: 25px 0;
+  margin: 0;
+  text-align: center;
 }
 
 p, li {
@@ -41,7 +43,7 @@ body {
 }
 
 img {
-  width: 600px;
+  /*width: 600px;*/
   margin: 0 auto;
   display: block;
 }
