@@ -8,3 +8,6 @@ myImage.onclick = function() {
     myImage.setAttribute('src','images/81202016010.jpg');
   }
 }
+
+let myButton = document.querySelector('button');
+let myHeading = document.querySelector('h1');
