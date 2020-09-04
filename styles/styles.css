@@ -53,3 +53,8 @@ img {
   margin: 0 auto;
   display: block;
 }
+
+button {
+  text-align: center;
+  font-size: 60;;
+}
