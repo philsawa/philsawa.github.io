@@ -56,3 +56,7 @@ button {
   list-style: none;
   font-size: 30px;
 }
+
+#menu li::before {
+  content: '/200B';
+}
