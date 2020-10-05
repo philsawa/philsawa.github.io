@@ -57,6 +57,7 @@ button {
   font-size: 30px;
 }
 
-#menu li::before {
+/*#menu li::before {
   content: "&ZeroWidthSpace";
 }
+*/
