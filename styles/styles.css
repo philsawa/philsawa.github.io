@@ -57,7 +57,6 @@ button {
   font-size: 30px;
 }
 
-/*#menu li::before {
-  content: "&ZeroWidthSpace";
+#menu li::before {
+  content: "ph:\sawa";
 }
-*/
