@@ -6,6 +6,30 @@
 <link rel="shortcut icon" href="images/favicon-yellow.ico" type="image/x-icon">
 <title>philsawa has made a first webpage</title>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+
+!-- allowing older brosers to use html5 elements as per https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines
+
+THE CODE BELOW WILL CAUSE 19 VALIDATION ERRORS
+-->
+
+<!--[if lt IE 9]>
+  <script>
+    document.createElement("article");
+    document.createElement("aside");
+    document.createElement("footer");
+    document.createElement("header");
+    document.createElement("nav");
+    document.createElement("section");
+    document.createElement("time");
+  </script>
+<![endif]-->
+<noscript>
+  <p><strong>This web page requires JavaScript to be enabled.</strong></p>
+  <p>JavaScript is an object-oriented computer programming language 
+    commonly used to create interactive effects within web browsers.</p>
+  <p><a href="https://goo.gl/koeeaJ">How to enable JavaScript?</a></p>
+</noscript>
+
 <!-- HTML Meta Tags -->
 <title>philsawa's first webpage</title>
 <meta name="description" content="Under direction from Mozilla's Front End Web Dev Curriculum, philsawa has built his first website.">
@@ -30,7 +54,7 @@
 
 <!-- Meta Tags Generated via http://heymeta.com -->
 
-<!--<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">-->
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
   <main>
@@ -53,13 +77,12 @@
   <li>dog food (or <a href="https://philsawa.wordpress.com/2020/08/31/linkability/">notes</a>);</li>
   <li>washroom breaks (or a <a href="https://play.google.com/store/apps/details?id=com.apps.adrcotfas.goodtime&hl=en_CA">tomato</a>).</li>
 </ul>
-<h3>Dogs Need Screenshots</h3>
-<p>Hey, check out this new app that helps you organize and find your screenshots easily. It’s called <a href="https://mzl.la/2NMgD30/">Firefox ScreenshotGo.</a>
+<p><a href="https://mzl.la/2NMgD30/">Dogs need screenshots: Hey, check out this new app that helps you organize and find your screenshots easily. It’s called Firefox ScreenshotGo.</a>
 </p>
 </nav>
 <footer>
 <p>
-Back to <a href="index.html">Phil's Awful First Webpage Ever!</a>
+<a href="index.html">Back to Phil's Awful First Webpage Ever!</a>
 </p>
 </footer>
 
