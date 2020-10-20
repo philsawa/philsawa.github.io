@@ -4,6 +4,30 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="images/favicon-yellow.ico" type="image/x-icon)">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+
+!-- allowing older brosers to use html5 elements as per https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines
+
+THE CODE BELOW WILL CAUSE 19 VALIDATION ERRORS
+-->
+
+<!--[if lt IE 9]>
+  <script>
+    document.createElement("article");
+    document.createElement("aside");
+    document.createElement("footer");
+    document.createElement("header");
+    document.createElement("nav");
+    document.createElement("section");
+    document.createElement("time");
+  </script>
+<![endif]-->
+<noscript>
+  <p><strong>This web page requires JavaScript to be enabled.</strong></p>
+  <p>JavaScript is an object-oriented computer programming language 
+    commonly used to create interactive effects within web browsers.</p>
+  <p><a href="https://goo.gl/koeeaJ">How to enable JavaScript?</a></p>
+</noscript>
+
 <!-- HTML Meta Tags -->
 <title>HTML Text Examples</title>
 <meta name="description" content="Examples of HTML text formatting from Mozilla's Front End Web Dev Curriculum">
