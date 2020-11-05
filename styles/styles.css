@@ -73,3 +73,7 @@ button {
 #menu li::before {
   content: "philsawa";
 }
+
+audio, video {
+  border: 1px solid black;
+}
