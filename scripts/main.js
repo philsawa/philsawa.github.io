@@ -13,7 +13,7 @@ let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
-  let myName = prompt('Please enter your preferred pronoun.');
+  let myName = prompt('Please enter your preferred pronoun (e.g. "person" "per" or "pers".');
   if(!myName) {//if(myName === null) {
     setUserName();
   } else {
